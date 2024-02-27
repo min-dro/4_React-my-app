@@ -10,7 +10,7 @@ function Square(props) {
     // - HTML 내에 변수 사용 사 중괄호({}) 사용
     return (
         <button className="square" onClick={()=>{ setBtnValue('X'); }}>
-            {btnvalue}
+            {btnValue}
         </button>
     );
 }
