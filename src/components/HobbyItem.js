@@ -1,6 +1,7 @@
-function HobbyList(props) {
+// 컴포넌트명은 Pascal 표기법 (대문자 시작)
+function HobbyItem({value, isChecked}) {
     return (
-        <li>{props.value} {props.isChecked && 'v'}</li>
+        <li>{value} {isChecked && 'v'}</li>
     )
 }
 
